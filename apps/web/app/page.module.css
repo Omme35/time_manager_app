@@ -1,0 +1,67 @@
+.page {
+  padding: 2rem;
+  min-height: calc(100vh - 4rem);
+  background-color: #f9fafb;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0;
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+}
+
+.ctas {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.primary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.secondary {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  width: 100%;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 1rem;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #000;
+}
+
+/* Add any additional styles here */ 

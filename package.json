@@ -1,24 +1,15 @@
 {
-  "name": "time_manager_app",
-  "version": "1.0.0",
-  "description": "App for admin the labor hour of the employees",
-  "main": "index.js",
+  "name": "time-manager-app",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Iker López Iribas",
-  "license": "SEE LICENSE IN LICENSE.txt",
-  "packageManager": "pnpm@10.6.4",
-  "dependencies": {
-    "@prisma/client": "^6.5.0",
-    "next": "^15.2.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "db:generate": "pnpm --filter @time-manager/database db:generate",
+    "db:migrate": "pnpm --filter @time-manager/database db:migrate",
+    "db:studio": "pnpm --filter @time-manager/database db:studio"
   },
   "devDependencies": {
-    "prisma": "^6.5.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
-  }
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@8.15.4"
 }
